@@ -146,17 +146,18 @@ async def main():
     print("2. Forward Messages")
     
     # choice = input("Enter your choice: ")
-    choice = 2
+    choice = "2"
     
     if choice == "1":
         await forwarder.list_chats()
     elif choice == "2":
         # source_chat_id = int(input("Enter the source chat ID: "))
         # destination_channel_id = int(input("Enter the destination chat ID: "))
+        source_chat_id = 2
         destination_channel_id = 777000
         # print("Enter keywords if you want to forward messages with specific keywords, or leave blank to forward every message!")
         # keywords = input("Put keywords (comma separated if multiple, or leave blank): ").split(",")
-        
+        keywords = ""
         await forwarder.forward_messages_to_channel(source_chat_id, destination_channel_id, keywords)
     else:
         print("Invalid choice")
