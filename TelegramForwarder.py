@@ -1,6 +1,7 @@
 import time
 import asyncio
 from telethon.sync import TelegramClient
+from http.server import HTTPServer
 
 class TelegramForwarder:
     def __init__(self, api_id, api_hash, phone_number):
@@ -162,6 +163,11 @@ async def main():
     else:
         print("Invalid choice")
 
+class ServerRun:
+    pass
+    
 # Start the event loop and run the main function
 if __name__ == "__main__":
+    http = HTTPServer(("localhost",4567),ServerRun)
+    http.serve_forever()
     asyncio.run(main())
