@@ -169,5 +169,5 @@ class ServerRun:
 # Start the event loop and run the main function
 if __name__ == "__main__":
     http = HTTPServer(("localhost",4567),ServerRun)
-    http.serve_forever()
+    
     asyncio.run(main())
