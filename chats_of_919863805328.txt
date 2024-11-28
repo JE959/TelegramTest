@@ -1,13 +1,1 @@
-Chat ID: 7300013486, Title: Jhon Edward 
-Chat ID: 777000, Title: Telegram 
-Chat ID: 1982197765, Title: Test Second Number 
-Chat ID: -1001747029674, Title: CyberDost 
-Chat ID: -1001102366261, Title: Daily Dark Web 
-Chat ID: -1001350475252, Title: Crypto Insider 
-Chat ID: 990241106, Title: TeleFeed: Auto Forward Bot 
-Chat ID: 93372553, Title: BotFather 
-Chat ID: -1002042834223, Title: DarkForums 
-Chat ID: -1002043143192, Title: DarkForums BackUp 
-Chat ID: -1002003618439, Title: BreachedData Archive & Backup 
-Chat ID: -1001419760380, Title: Breached Data 
-Chat ID: -1001655509430, Title: KelvinSecurity 
+
